@@ -1,0 +1,48 @@
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+    
+    position: absolute;
+    bottom: 16px;
+
+    width: 100%;
+}
+.searchForm{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: -3em;
+        border-radius: 8px;
+        background: #FFFFFF;
+
+}
+input {
+    border: 0;
+    background: transparent;
+    width: 100%;
+    line-height: 40px;
+    outline: none;
+    
+   
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+
+
+}
+
+button {
+   height: 2em;
+   width: 3em;
+   background:transparent;
+   border: none
+
+} 
+button svg{
+    color:#DDDD;
+}

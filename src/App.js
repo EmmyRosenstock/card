@@ -5,8 +5,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' exact component = {Home} />
-      <Route path='/criarCard' exact component = {CreateCard} />
+      <Route path='/' exact element = {<Home/>} />
+      <Route path='/criarCard' exact element = {<CreateCard/>} />
     </Routes>
     </BrowserRouter>
   );

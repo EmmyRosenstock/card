@@ -1,0 +1,49 @@
+.Headerc{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:0 auto;
+
+    padding:0;
+    height:5em;
+    background:url('../../assets/background.svg');
+     background-position: center;    
+}
+.contents{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    color:#ED4D77;
+    margin-top:1em;
+}
+
+
+
+.btnback{
+    background: none;
+    margin-right:2em;
+    cursor:pointer;
+    color:#ED4D77;
+            
+  
+  }
+  .btnplus  svg{
+    color:#ED4D77;
+  
+   
+   
+  }
+  .inform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:-2em;
+    margin-right:2%;
+    width:50%;
+    color:#ED4D77;
+    font-family: 'Exo 2', sans-serif;
+    
+  }
+ 
